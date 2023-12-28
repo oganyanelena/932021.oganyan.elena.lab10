@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.curtain-img {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.lamp-head {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 250px);
+    z-index: 999;
+    cursor: pointer;
+}
+
+.lamp-leg {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 250px);
+    z-index: 900;
+    cursor: pointer;
+}
+
+.switch {
+    position: absolute;
+    top: 120px;
+    left: 47.5%;
+    transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+    z-index: 998;
+
+}
+
+.light {
+    position: absolute;
+    top: 90px;
+    left: calc(50% - 797px);
+    width: 0;
+    height: 0;
+    border-left: 800px solid transparent;
+    border-right: 800px solid transparent;
+    border-bottom: 800px solid yellow;
+    z-index: 998;
+    opacity: 0;
+}
+
+.witch {
+    position: absolute;
+    bottom: 2%;
+    left: 20%;
+}
+
+.cylinder {
+    position: absolute;
+    bottom: 4%;
+    right: 45%;
+    width: 150px;
+    height: 150px;
+    z-index: 997;
+}
+
+.rabbit {
+    position: absolute;
+    bottom: calc(4% + 150px);
+    right: 48%;
+    width: 39px;
+    height: 50px;
+    z-index: 900;
+}
+
+.pigeon {
+    position: absolute;
+    bottom: 9%;
+    right: 47.5%;
+    width: 56px;
+    height: 43px;
+    z-index: 900;
+}
+.trigger {
+    position: absolute;
+    bottom: calc(4% + 150px);
+    right: 45.5%;
+    width: 140px;
+    height: 100px;
+    z-index: 1100;
+    cursor: pointer;
+}
